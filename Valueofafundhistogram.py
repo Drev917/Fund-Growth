@@ -35,16 +35,10 @@ if (medianOutcome > meanOutcome):
 else:
 	print('\nMean outcome is greater than median.')
 
-tenth = listOfOutcomes[9999]
-seventieth = listOfOutcomes[69999]
-ninetieth = listOfOutcomes[89999]
-mean = meanOutcome
-median = medianOutcome
-
-x = [listOfOutcomes]
-plt.title('Value Of A Fund')
-plt.xlabel('Fund Outcomes')
-plt.ylabel('Fund Values')
-plt.hist(x, bins = 30)
+plt.style.use('ggplot') #grid stylizer
+plt.hist(listOfOutcomes, bins = 30)
+plt.title('Fund Growth Over Time')
+plt.xlabel('Fund Value')
+plt.ylabel('Frequency')
 plt.show()
 
