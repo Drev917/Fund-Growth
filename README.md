@@ -5,5 +5,3 @@ I then plotted the growth to show a normal distribution with a small right tail 
 Title: Fund Growth Over Time
 X Axis: Fund Value
 Y Axis: Frequency
-
-￼￼￼
