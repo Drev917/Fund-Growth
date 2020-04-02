@@ -3,10 +3,10 @@ Calculates value of a $50k starting principal balance over a 30 year time horizo
 
 I then plotted the growth to show a normal distribution with a small right tail using matplotlib.
 
-#####Title: Fund Growth Over Time
+##### Title: Fund Growth Over Time
 
-#####X Axis: Fund Value
+##### X Axis: Fund Value
 
-#####Y Axis: Frequency
+##### Y Axis: Frequency
 
 ![ScreenShot](https://github.com/Drev917/Fund-Value-Growth/blob/master/FundGrowth.JPG)
