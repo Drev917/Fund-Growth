@@ -23,6 +23,7 @@ print('Max value outcome: ',listOfOutcomes[-1]) #prints out the last value of th
 print('10th percentile outcome: ',listOfOutcomes[9999]) #prints out the 10,000th outcome (10th percentile)
 print('70th percentile outcome: ',listOfOutcomes[69999]) #prints out the 70,000th outcome (70th percentile)
 print('90th percentile outcome: ',listOfOutcomes[89999]) #prints out the 90,000th outcome (90th percentile)
+#can also use the Pandas library with .describe() to gain a quick look at stats surrounding the dataset/percentiles
 
 medianOutcome = np.median(listOfOutcomes) #median outcome
 meanOutcome = np.mean(listOfOutcomes) #mean outcome
